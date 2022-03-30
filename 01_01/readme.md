@@ -3,6 +3,16 @@
 ## setting up the environment:
 
 You can import this repo by using vscode editor.
+<br>
+<br>
+<br>
+
+## eslint & prettier
+
+This project has enabled <font size="5" color="yellow">eslint</font> for basic javascript code garmmar check and code formatter by <font size="5" color="yellow"> prettier</font>.
+<br>
+<br>
+<br>
 
 ## how does it organized：
 
