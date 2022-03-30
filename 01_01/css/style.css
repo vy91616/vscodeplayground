@@ -1,0 +1,29 @@
+/* 
+COLOR PALETTE
+#464e67 - gray
+#64cea9 - light green
+#57b268- apple green
+#797720 - golden yellow
+#efeeb4 - beige
+*/
+
+/* global config
+------------------------- */
+
+body {
+  color: #464e67;
+}
+
+/* login form
+---------------------------*/
+
+.form-group {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#create {
+  background-color: #57b268;
+  border: 0;
+  color: #efeeb4;
+}
