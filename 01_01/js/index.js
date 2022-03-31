@@ -16,18 +16,40 @@ btnCreate.addEventListener(
   false
 );
 
-let btnShow = document.getElementById("pwToggle");
+let checkboxShow = document.getElementById("pwToggle");
 
-btnShow.addEventListener(
+let txtPassword = document.getElementById("password");
+
+checkboxShow.addEventListener(
   "click",
   function (event) {
     if (event.target.checked) {
-      btnPassword.setAttribute("type", "text");
+      txtPassword.setAttribute("type", "text");
     } else {
-      btnPassword.setAttribute("type", "password");
+      txtPassword.setAttribute("type", "password");
     }
   },
   false
 );
 
-let btnPassword = document.getElementById("password");
+let form = document.getElementsByTagName("form");
+
+let checkboxTermOfUse = document.getElementById("termOfUse");
+
+form[0].addEventListener(
+  "submit",
+  function (event) {
+    let passwordStr = txtPassword.value;
+    let regStr = /^.*(?=.{8,})(?=.*[a-zA-Z])(?=.*\d)(?=.*[!#$%&? "]).*$/;
+    if (regStr.test(passwordStr) && checkboxTermOfUse.checked) {
+      alert("Congrats! you have created an account!");
+    } else if (checkboxTermOfUse.checked) {
+      alert("Invalid Password!");
+      event.preventDefault();
+    } else {
+      alert("Please read and check the term of use and Privacy policy!");
+      event.preventDefault();
+    }
+  },
+  false
+);
