@@ -27,3 +27,11 @@ body {
   border: 0;
   color: #efeeb4;
 }
+
+#email {
+  width: 160px;
+}
+
+#password {
+  width: 100px;
+}
