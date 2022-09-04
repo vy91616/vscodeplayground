@@ -1,0 +1,32 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055j000000dDfWAAU",
+      "createdByName": "Vinod Kumar Yadav",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "unfiled$public",
+      "fullName": "unfiled$public",
+      "id": "",
+      "lastModifiedById": "0055j000000dDfWAAU",
+      "lastModifiedByName": "Vinod Kumar Yadav",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "",
+      "type": "ReportFolder"
+    },
+    {
+      "createdById": "0055j000000rF0LAAU",
+      "createdByName": "Automated Process",
+      "createdDate": "2021-10-09T16:46:41.000Z",
+      "fileName": "reports/EinsteinBotReports",
+      "fullName": "EinsteinBotReports",
+      "id": "00l5j0000011mVWAAY",
+      "lastModifiedById": "0055j000000rF0LAAU",
+      "lastModifiedByName": "Automated Process",
+      "lastModifiedDate": "2021-10-09T16:46:41.000Z",
+      "manageableState": "unmanaged",
+      "type": "ReportFolder"
+    }
+  ]
+}

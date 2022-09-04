@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Sun Apr 03 2022 12:20:29 am",
+    "testExecutionTimeInMs": 28,
+    "testTotalTimeInMs": 28,
+    "commandTimeInMs": 566,
+    "hostname": "https://d5j000000wgrmeac-dev-ed.my.salesforce.com",
+    "orgId": "00D5j000000WgrmEAC",
+    "username": "vy91616@accenture.com",
+    "testRunId": "7075j00001OLixj",
+    "userId": "0055j000000dDfWAAU"
+  },
+  "tests": [
+    {
+      "id": "07M5j0000018z1BEAQ",
+      "queueItemId": "7095j000000xuceAAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j00001OLixjAAD",
+      "methodName": "testBoilingPoint",
+      "outcome": "Pass",
+      "apexLogId": "07L5j000005H2lSEAS",
+      "apexClass": {
+        "id": "01p5j00000KLYeFAAX",
+        "name": "TemperatureConverterTest",
+        "namespacePrefix": null,
+        "fullName": "TemperatureConverterTest"
+      },
+      "runTime": 28,
+      "testTimestamp": "2022-04-02T18:50:29.000+0000",
+      "fullName": "TemperatureConverterTest.testBoilingPoint"
+    }
+  ]
+}

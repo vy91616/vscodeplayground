@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0055j000000rF0LAAU",
+    "createdByName": "Automated Process",
+    "createdDate": "2021-10-08T05:38:38.000Z",
+    "fileName": "reportTypes/screen_flows_prebuilt_crt.reportType",
+    "fullName": "screen_flows_prebuilt_crt",
+    "id": "0705j000000Y012AAC",
+    "lastModifiedById": "0055j000000rF0LAAU",
+    "lastModifiedByName": "Automated Process",
+    "lastModifiedDate": "2021-10-08T05:38:38.000Z",
+    "manageableState": "unmanaged",
+    "type": "ReportType"
+  }
+}

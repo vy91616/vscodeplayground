@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Sat Jul 16 2022 1:25:28 am",
+    "testExecutionTimeInMs": 2636,
+    "testTotalTimeInMs": 2636,
+    "commandTimeInMs": 573,
+    "hostname": "https://d5j000000wgrmeac-dev-ed.my.salesforce.com",
+    "orgId": "00D5j000000WgrmEAC",
+    "username": "vy91616@accenture.com",
+    "testRunId": "7075j00002aeitH",
+    "userId": "0055j000000dDfWAAU"
+  },
+  "tests": [
+    {
+      "id": "07M5j000001jCCwEAM",
+      "queueItemId": "7095j000000yFuAAAU",
+      "stackTrace": "Class.AccountTriggerTest.TestCreatenewAccount: line 14, column 1",
+      "message": "System.AssertException: Assertion Failed: error: Expected: CA, Actual: null",
+      "asyncApexJobId": "7075j00002aeitHAAQ",
+      "methodName": "TestCreatenewAccount",
+      "outcome": "Fail",
+      "apexLogId": "07L5j00000919wIEAQ",
+      "apexClass": {
+        "id": "01p5j00000MOznAAAT",
+        "name": "AccountTriggerTest",
+        "namespacePrefix": null,
+        "fullName": "AccountTriggerTest"
+      },
+      "runTime": 2636,
+      "testTimestamp": "2022-07-15T19:55:28.000+0000",
+      "fullName": "AccountTriggerTest.TestCreatenewAccount",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: error: Expected: CA, Actual: null",
+        "exceptionStackTrace": "Class.AccountTriggerTest.TestCreatenewAccount: line 14, column 1",
+        "className": "AccountTriggerTest",
+        "compileProblem": "",
+        "lineNumber": 14,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

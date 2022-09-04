@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "outcome": "Skipped",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 0,
+    "skipped": 1,
+    "passRate": "0%",
+    "failRate": "0%",
+    "skipRate": "100%",
+    "testStartTime": "Sun Apr 03 2022 12:11:43 am",
+    "testExecutionTimeInMs": 0,
+    "testTotalTimeInMs": 0,
+    "commandTimeInMs": 570,
+    "hostname": "https://d5j000000wgrmeac-dev-ed.my.salesforce.com",
+    "orgId": "00D5j000000WgrmEAC",
+    "username": "vy91616@accenture.com",
+    "testRunId": "7075j00001OLicg",
+    "userId": "0055j000000dDfWAAU"
+  },
+  "tests": [
+    {
+      "id": "07M5j0000018z0IEAQ",
+      "queueItemId": "7095j000000xucPAAQ",
+      "stackTrace": null,
+      "message": "Method testWarmTemp does not exist in the the apex class with Id :01p5j00000KLYeA",
+      "asyncApexJobId": "7075j00001OLicgAAD",
+      "methodName": "testWarmTemp",
+      "outcome": "Skip",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5j00000KLYeAAAX",
+        "name": "TemperatureConverter",
+        "namespacePrefix": null,
+        "fullName": "TemperatureConverter"
+      },
+      "runTime": 0,
+      "testTimestamp": "2022-04-02T18:41:43.000+0000",
+      "fullName": "TemperatureConverter.testWarmTemp",
+      "diagnostic": {
+        "exceptionMessage": "Method testWarmTemp does not exist in the the apex class with Id :01p5j00000KLYeA",
+        "exceptionStackTrace": null,
+        "compileProblem": ""
+      }
+    }
+  ]
+}
