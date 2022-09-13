@@ -10,4 +10,4 @@
     </script>
     <!-- Where the jQuery message will appear -->
     <h1 id="message"></h1>
-</apex:page>
+</apex:page> 
