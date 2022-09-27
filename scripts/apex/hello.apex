@@ -5,5 +5,6 @@
 // You can also execute the entire file by running the command:
 //     SFDX: Execute Anonymous Apex with Editor Contents
 
-List<Account> acc = AccountUtils.accountByState('NC');
-System.debug('Account: ' + acc);
+list<id> IDList= new list<id>();
+IDList.add('0015j00000Z9M0UAAV');
+AccountProcessor.countContacts(IDList);
