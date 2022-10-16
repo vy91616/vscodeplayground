@@ -1,4 +1,5 @@
 <aura:component>
+    <aura:attribute name="expenses" type="Expense__c[]"/>
     <aura:attribute name="newExpense" type="Expense__c"
     default="{ 'sobjectType': 'Expense__c',
                    'Name': '',
@@ -67,4 +68,5 @@
         </lightning:layoutItem>
     </lightning:layout>
     <!-- / NEW EXPENSE FORM -->
+    <c:expensesList expenses="{!v.expenses}"/>
 </aura:component>
