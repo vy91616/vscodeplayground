@@ -1,12 +1,15 @@
-<aura:component>
+<aura:component controller="ExpensesController">
     <aura:attribute name="expenses" type="Expense__c[]"/>
     <aura:attribute name="newExpense" type="Expense__c"
+
     default="{ 'sobjectType': 'Expense__c',
                    'Name': '',
                    'Amount__c': 0,
                    'Client__c': '',
                    'Date__c': '',
                    'Reimbursed__c': false }"/>
+    <aura:handler name='init' value='{!this}' action='{!c.doInit}' />
+
     <!-- PAGE HEADER -->
     <lightning:layout class="slds-page-header slds-page-header_object-home">
         <lightning:layoutItem>
