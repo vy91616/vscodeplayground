@@ -5,6 +5,12 @@
 // You can also execute the entire file by running the command:
 //     SFDX: Execute Anonymous Apex with Editor Contents
 
-list<id> IDList= new list<id>();
-IDList.add('0015j00000Z9M0UAAV');
-AccountProcessor.countContacts(IDList);
+Account singleAccount = new Account(Name='Testing bulking');
+insert singleAccount;
+
+List<Account> accounts = new List<Account>();
+for(Integer i = 0; i < 100; i++){
+    accounts.add(new Account(Name='multiple accounts testing account ' + i));
+
+}
+insert accounts;
